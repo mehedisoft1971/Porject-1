@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap.css"/>
+    <link rel="stylesheet" href="./style.css"/>
+    <title>HTML Project</title>
+</head>
+<body>
+   
+                           <!--Navbar and Dropdown <Menu-->
+     
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:rgb(238, 247, 244)">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./blogo.png" height="110px" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><B>Home</B></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#"><B>Servic</B></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#"><B>About Us</B></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown List
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">HTML</a></li>
+                  <li><a class="dropdown-item" href="#">CSS</a></li>
+                  <li><a class="dropdown-item" href="#">Bootstrap</a></li>
+                </ul>
+              </li>
+            </ul>        
+           <button class="btn btn-primary navbar-btn">Sign UP</button>
+            <button class="btn btn-danger navbar-btn">Log In</button>
+          </div>
+        </div>
+      </nav> <br>
+                                <!--Button Section-->
+<button type="button" class="btn btn-primary bt1">Button-1</button>
+<button type="button" class="btn btn-secondary bt2">Button-2</button>
+<button type="button" class="btn btn-success bt3">Button-3</button>
+<button type="button" class="btn btn-danger bt4">Button-4</button>
+<button type="button" class="btn btn-warning bt5">Button-5</button><br><br>
+<button type="button" class="btn btn-info bt6">Button-6</button>
+<button type="button" class="btn btn-light bt7">Button-7</button>
+<button type="button" class="btn btn-dark bt8">Button-8</button>
+<button type="button" class="btn btn-link bt9">Button-9 Link</button>
+<button type="button" class="btn btn-danger bt10 ">Button-10</button><br><br><br><br>
+                                        
+
+                                       <!--Card -->
+<h1 style="text-align: center;"> Card</h1>
+<div class="card" style="width: 22rem;">
+  <img src="./fruit.png"class="card-img-top" alt="">
+  <div class="card-body">
+    <h5 class="card-title">Fresh Fruit</h5>
+    <p class="card-text">Apples. One of the most popular fruits, apples are chock-full of nutrition. They’re rich in both.....</p>
+    <a href="#" class="btn btn-primary cd1">See More</a>
+  </div>
+</div><br><br><br>
+ 
+<!--From -->
+<h1 style="text-align: center;">form</h1>
+  <form>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      <small id="emailHelp" class="form-text text-muted">Type Correct Email Address.</small>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    </div>
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form><br><br>
+  
+<!--List Group -->
+<h1 style="text-align: center;">List Group</h1>
+<ul class="list-group">
+  <li class="list-group-item">Bangladesh</li>
+  <li class="list-group-item">India</li>
+  <li class="list-group-item">USA</li>
+  <li class="list-group-item">UK</li>
+  <li class="list-group-item">Canada</li>
+</ul><br><br>
+<h1 style="text-align: center;">Progress bar</h1>
+<div class="progress">
+  <div class="progress-bar" style="width:70%">70%</div>
+</div><br><br>
+
+<h1 style="text-align: center;">pagination</h1><br>
+<ul class="pagination">
+  <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+  <li class="page-item"><a class="page-link" href="#">1</a></li>
+  <li class="page-item"><a class="page-link" href="#">2</a></li>
+  <li class="page-item"><a class="page-link" href="#">3</a></li>
+  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+</ul><br><br><br>
+
+<h1 style="text-align: center;">Table</h1>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">SL</th>
+      <th scope="col">Name</th>
+      <th scope="col">ID</th>
+      <th scope="col">Degination</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mehedi Hasan</td>
+      <td>102884</td>
+      <td>SrExecutive</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Abir</td>
+      <td>102885</td>
+      <td>Po</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Masud</td>
+      <td>102836</td>
+      <td>Supervisor</td>
+    </tr>
+  </tbody>
+</table><br><br>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>        
+</body>
+</html>
